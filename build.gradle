@@ -52,8 +52,8 @@ repositories {
 }
 
 dependencies {
-    implementation project(path: ":mod-iron-craft-table", configuration: "namedElements")
-    implementation project(path: ":mod-metals", configuration: "namedElements")
+    include modImplementation(project(path: ":mod-iron-craft-table", configuration: "namedElements"))
+    include modImplementation(project(path: ":mod-metals", configuration: "namedElements"))
 }
 
 processResources {
