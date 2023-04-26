@@ -92,8 +92,8 @@ allprojects {
 }
 
 dependencies {
-    include modImplementation(project(path: ":mod-iron-craft-table", configuration: "namedElements"))
-    include modImplementation(project(path: ":mod-metals", configuration: "namedElements"))
+    include implementation(project(path: ":mod-iron-craft-table", configuration: "namedElements"))
+    include implementation(project(path: ":mod-metals", configuration: "namedElements"))
 }
 
 // configure the maven publication
