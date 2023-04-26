@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sib_energy_craft:bronze_ingot"
+    }
+  ],
+  "result": {
+    "item": "sib_energy_craft:bronze_nugget",
+    "count": 9
+  }
+}

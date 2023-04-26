@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/iron_block",
+    "east": "sib_energy_craft:block/iron_crafting_table_side",
+    "north": "sib_energy_craft:block/iron_crafting_table_front",
+    "particle": "sib_energy_craft:block/iron_crafting_table_front",
+    "south": "sib_energy_craft:block/iron_crafting_table_side",
+    "up": "sib_energy_craft:block/iron_crafting_table_top",
+    "west": "sib_energy_craft:block/iron_crafting_table_front"
+  }
+}

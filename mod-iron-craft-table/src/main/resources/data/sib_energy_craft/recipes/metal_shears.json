@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    " I ",
+    "i i"
+  ],
+  "key": {
+    "I": {
+      "item": "sib_energy_craft:iron_plate"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "sib_energy_craft:metal_shears"
+  }
+}

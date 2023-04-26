@@ -1,0 +1,14 @@
+{
+  "type": "sib_energy_craft:iron_crafting_table_tool",
+  "group": "tin_plate",
+  "tool": {
+    "item": "sib_energy_craft:iron_hammer"
+  },
+  "source": {
+    "item": "sib_energy_craft:tin_ingot"
+  },
+  "output": {
+    "item": "sib_energy_craft:tin_plate",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CC",
+    "CT"
+  ],
+  "key": {
+    "C": {
+      "item": "sib_energy_craft:copper_dust"
+    },
+    "T": {
+      "item": "sib_energy_craft:tin_dust"
+    }
+  },
+  "result": {
+    "item": "sib_energy_craft:bronze_dust"
+  }
+}

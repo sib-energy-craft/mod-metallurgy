@@ -1,0 +1,14 @@
+{
+  "type": "sib_energy_craft:iron_crafting_table_tool",
+  "group": "bronze_item_casing",
+  "tool": {
+    "item": "sib_energy_craft:iron_hammer"
+  },
+  "source": {
+    "item": "sib_energy_craft:bronze_plate"
+  },
+  "output": {
+    "item": "sib_energy_craft:bronze_item_casing",
+    "count": 2
+  }
+}

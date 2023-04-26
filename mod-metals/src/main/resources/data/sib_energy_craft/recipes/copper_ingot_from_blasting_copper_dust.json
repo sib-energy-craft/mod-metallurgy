@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "copper_ingot",
+  "ingredient": {
+    "item": "sib_energy_craft:copper_dust"
+  },
+  "result": "minecraft:copper_ingot",
+  "experience": 0.35,
+  "cookingtime": 50
+}

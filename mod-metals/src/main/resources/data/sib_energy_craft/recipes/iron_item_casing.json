@@ -1,0 +1,14 @@
+{
+  "type": "sib_energy_craft:iron_crafting_table_tool",
+  "group": "iron_item_casing",
+  "tool": {
+    "item": "sib_energy_craft:iron_hammer"
+  },
+  "source": {
+    "item": "sib_energy_craft:iron_plate"
+  },
+  "output": {
+    "item": "sib_energy_craft:iron_item_casing",
+    "count": 2
+  }
+}

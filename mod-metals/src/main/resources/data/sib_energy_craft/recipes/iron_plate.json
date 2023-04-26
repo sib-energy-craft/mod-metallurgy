@@ -1,0 +1,14 @@
+{
+  "type": "sib_energy_craft:iron_crafting_table_tool",
+  "group": "iron_plate",
+  "tool": {
+    "item": "sib_energy_craft:iron_hammer"
+  },
+  "source": {
+    "item": "minecraft:iron_ingot"
+  },
+  "output": {
+    "item": "sib_energy_craft:iron_plate",
+    "count": 1
+  }
+}
