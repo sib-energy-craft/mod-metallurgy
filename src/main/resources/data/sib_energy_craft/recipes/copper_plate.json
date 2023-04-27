@@ -1,5 +1,6 @@
 {
   "type": "sib_energy_craft:iron_crafting_table_tool",
+  "category": "misc",
   "group": "copper_plate",
   "tool": {
     "item": "sib_energy_craft:iron_hammer"

@@ -1,5 +1,6 @@
 {
   "type": "sib_energy_craft:macerating",
+  "category": "misc",
   "ingredient": [
     {
       "item": "sib_energy_craft:raw_silver"

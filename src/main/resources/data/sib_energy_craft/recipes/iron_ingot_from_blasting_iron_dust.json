@@ -1,5 +1,6 @@
 {
   "type": "minecraft:blasting",
+  "category": "misc",
   "group": "iron_ingot",
   "ingredient": {
     "item": "sib_energy_craft:iron_dust"
