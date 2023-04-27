@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "sec-mod-metallurgy",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "name": "SibEnergyCraft - Metallurgy",
   "authors": [
     "sibmaks"
@@ -14,5 +14,11 @@
     "fabricloader": ">=0.14.17",
     "fabric": "*",
     "minecraft": "1.19.4"
+  },
+  "entrypoints": {
+    "main": [
+      "com.github.sib_energy_craft.metallurgy.iron_craft_table.load.Loader",
+      "com.github.sib_energy_craft.metallurgy.metals.load.Loader"
+    ]
   }
 }

@@ -6,40 +6,19 @@ plugins {
 
 version = project.mod_version
 group = project.maven_group
-
-
+sourceCompatibility = jdk_version
+targetCompatibility = jdk_version
 def targetJavaVersion = Integer.valueOf(jdk_version)
 
-allprojects {
-    apply plugin: 'fabric-loom'
-    apply plugin: 'java'
-
-    sourceCompatibility = jdk_version
-    targetCompatibility = jdk_version
-
-    repositories {
-        mavenCentral()
-        maven { url 'https://jitpack.io' }
-    }
-
-    dependencies {
-        modImplementation("com.github.sib-energy-craft:energy-api:${project.sec_energy_api_version}")
-        modImplementation("com.github.sib-energy-craft:sec-utils:${project.sec_utils_version}")
-        modImplementation("com.github.sib-energy-craft:mod-ores:${project.sec_mod_ores_version}")
-        modImplementation("com.github.sib-energy-craft:mod-tools-api:${project.sec_mod_tools_api_version}")
-        modImplementation("com.github.sib-energy-craft:mod-tools-impl:${project.sec_mod_tools_impl_version}")
-        modImplementation "com.github.sib-energy-craft:mod-iron-craft-table-api:${project.sec_mod_iron_craft_table_api_version}"
-        modImplementation("com.github.sib-energy-craft:mod-recipes:${project.sec_mod_recipies_version}")
-    }
-
-    tasks.withType(JavaCompile).configureEach {
-        it.options.encoding = "UTF-8"
-        it.options.release = targetJavaVersion
-    }
-
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
+    compileOnly "org.projectlombok:lombok:${project.lombok_version}"
+    annotationProcessor "org.projectlombok:lombok:${project.lombok_version}"
+
     // To change the versions see the gradle.properties file
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
     mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
@@ -48,8 +27,18 @@ dependencies {
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-    include implementation(project(path: ":mod-iron-craft-table", configuration: "namedElements")){ transitive false }
-    include implementation(project(path: ":mod-metals", configuration: "namedElements")){ transitive false }
+    modImplementation("com.github.sib-energy-craft:energy-api:${project.sec_energy_api_version}")
+    modImplementation("com.github.sib-energy-craft:sec-utils:${project.sec_utils_version}")
+    modImplementation("com.github.sib-energy-craft:mod-ores:${project.sec_mod_ores_version}")
+    modImplementation("com.github.sib-energy-craft:mod-tools-api:${project.sec_mod_tools_api_version}")
+    modImplementation("com.github.sib-energy-craft:mod-tools-impl:${project.sec_mod_tools_impl_version}")
+    modImplementation "com.github.sib-energy-craft:mod-iron-craft-table-api:${project.sec_mod_iron_craft_table_api_version}"
+    modImplementation("com.github.sib-energy-craft:mod-recipes:${project.sec_mod_recipies_version}")
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.encoding = "UTF-8"
+    it.options.release = targetJavaVersion
 }
 
 processResources {
