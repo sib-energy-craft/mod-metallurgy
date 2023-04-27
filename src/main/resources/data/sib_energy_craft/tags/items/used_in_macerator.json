@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:raw_copper",
+    "minecraft:raw_iron",
+    "minecraft:raw_gold",
+    "sib_energy_craft:raw_silver",
+    "sib_energy_craft:raw_tin"
+  ]
+}

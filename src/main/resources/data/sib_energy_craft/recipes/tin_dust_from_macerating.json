@@ -1,0 +1,14 @@
+{
+  "type": "sib_energy_craft:macerating",
+  "ingredient": [
+    {
+      "item": "sib_energy_craft:raw_tin"
+    }
+  ],
+  "result": {
+    "item": "sib_energy_craft:tin_dust",
+    "count": 2
+  },
+  "experience": 0.1,
+  "cookingTime": 100
+}
