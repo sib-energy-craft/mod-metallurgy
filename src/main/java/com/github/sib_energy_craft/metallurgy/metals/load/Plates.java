@@ -18,6 +18,7 @@ public final class Plates implements ModRegistrar {
     public static final Item COPPER_PLATE;
     public static final Item TIN_PLATE;
     public static final Item BRONZE_PLATE;
+    public static final Item GOLD_PLATE;
 
     static {
         var commonItem = new Item.Settings()
@@ -27,5 +28,6 @@ public final class Plates implements ModRegistrar {
         COPPER_PLATE = register(ItemGroups.INGREDIENTS, Identifiers.of("copper_plate"), commonItem);
         TIN_PLATE = register(ItemGroups.INGREDIENTS, Identifiers.of("tin_plate"), commonItem);
         BRONZE_PLATE = register(ItemGroups.INGREDIENTS, Identifiers.of("bronze_plate"), commonItem);
+        GOLD_PLATE = register(ItemGroups.INGREDIENTS, Identifiers.of("gold_plate"), commonItem);
     }
 }

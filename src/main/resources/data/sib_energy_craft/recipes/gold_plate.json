@@ -1,0 +1,15 @@
+{
+  "type": "sib_energy_craft:iron_crafting_table_tool",
+  "category": "misc",
+  "group": "gold_plate",
+  "tool": {
+    "item": "sib_energy_craft:iron_hammer"
+  },
+  "source": {
+    "item": "minecraft:gold_ingot"
+  },
+  "output": {
+    "item": "sib_energy_craft:gold_plate",
+    "count": 1
+  }
+}
