@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "group": "tin_ingot",
+  "ingredient": {
+    "item": "sib_energy_craft:tin_purified_crushed_ore"
+  },
+  "result": "sib_energy_craft:tin_ingot",
+  "experience": 0.5,
+  "cookingtime": 100
+}

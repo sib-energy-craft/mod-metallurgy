@@ -23,6 +23,18 @@
   "item.sib_energy_craft.silver_dust": "Серебряная пыль",
   "item.sib_energy_craft.bronze_dust": "Бронзовая пыль",
 
+  "item.sib_energy_craft.copper_crushed_ore": "Медная измельчёная руда",
+  "item.sib_energy_craft.gold_crushed_ore": "Золотая измельчёная руда",
+  "item.sib_energy_craft.iron_crushed_ore": "Железная измельчёная руда",
+  "item.sib_energy_craft.tin_crushed_ore": "Оловянная измельчёная руда",
+  "item.sib_energy_craft.silver_crushed_ore": "Серебряная измельчёная руда",
+
+  "item.sib_energy_craft.copper_purified_crushed_ore": "Медная очищенная измельчёная руда",
+  "item.sib_energy_craft.gold_purified_crushed_ore": "Золотая очищенная измельчёная руда",
+  "item.sib_energy_craft.iron_purified_crushed_ore": "Железная очищенная измельчёная руда",
+  "item.sib_energy_craft.tin_purified_crushed_ore": "Оловянная очищенная измельчёная руда",
+  "item.sib_energy_craft.silver_purified_crushed_ore": "Серебряная очищенная измельчёная руда",
+
   "block.sib_energy_craft.iron_crafting_table": "Железный рабочий стол",
 
   "container.iron_crafting_table": "Железный рабочий стол",

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "group": "copper_ingot",
+  "ingredient": {
+    "item": "sib_energy_craft:copper_crushed_ore"
+  },
+  "result": "minecraft:copper_ingot",
+  "experience": 0.5,
+  "cookingtime": 100
+}

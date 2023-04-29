@@ -1,0 +1,15 @@
+{
+  "type": "sib_energy_craft:macerating",
+  "category": "misc",
+  "group": "silver_dust",
+  "ingredient": [
+    {
+      "item": "sib_energy_craft:silver_crushed_ore"
+    }
+  ],
+  "result": {
+    "item": "sib_energy_craft:silver_dust"
+  },
+  "experience": 0.1,
+  "cookingTime": 100
+}

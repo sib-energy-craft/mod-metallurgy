@@ -23,6 +23,18 @@
   "item.sib_energy_craft.silver_dust": "Silver Dust",
   "item.sib_energy_craft.bronze_dust": "Bronze Dust",
 
+  "item.sib_energy_craft.copper_crushed_ore": "Copper Crushed Ore",
+  "item.sib_energy_craft.gold_crushed_ore": "Gold Crushed Ore",
+  "item.sib_energy_craft.iron_crushed_ore": "Iron Crushed Ore",
+  "item.sib_energy_craft.tin_crushed_ore": "Tin Crushed Ore",
+  "item.sib_energy_craft.silver_crushed_ore": "Silver Crushed Ore",
+
+  "item.sib_energy_craft.copper_purified_crushed_ore": "Copper Purified Crushed Ore",
+  "item.sib_energy_craft.gold_purified_crushed_ore": "Gold Purified Crushed Ore",
+  "item.sib_energy_craft.iron_purified_crushed_ore": "Iron Purified Crushed Ore",
+  "item.sib_energy_craft.tin_purified_crushed_ore": "Tin Purified Crushed Ore",
+  "item.sib_energy_craft.silver_purified_crushed_ore": "Silver Purified Crushed Ore",
+
   "block.sib_energy_craft.iron_crafting_table": "Iron Crafting Table",
 
   "container.iron_crafting_table": "Iron Crafting Table",

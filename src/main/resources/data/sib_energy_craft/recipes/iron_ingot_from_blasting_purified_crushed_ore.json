@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "group": "iron_ingot",
+  "ingredient": {
+    "item": "sib_energy_craft:iron_purified_crushed_ore"
+  },
+  "result": "minecraft:iron_ingot",
+  "experience": 0.35,
+  "cookingtime": 50
+}

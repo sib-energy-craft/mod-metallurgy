@@ -5,6 +5,18 @@
     "minecraft:raw_iron",
     "minecraft:raw_gold",
     "sib_energy_craft:raw_silver",
-    "sib_energy_craft:raw_tin"
+    "sib_energy_craft:raw_tin",
+
+    "sib_energy_craft:copper_crushed_ore",
+    "sib_energy_craft:iron_crushed_ore",
+    "sib_energy_craft:gold_crushed_ore",
+    "sib_energy_craft:silver_crushed_ore",
+    "sib_energy_craft:tin_crushed_ore",
+
+    "sib_energy_craft:copper_purified_crushed_ore",
+    "sib_energy_craft:iron_purified_crushed_ore",
+    "sib_energy_craft:gold_purified_crushed_ore",
+    "sib_energy_craft:silver_purified_crushed_ore",
+    "sib_energy_craft:tin_purified_crushed_ore"
   ]
 }
