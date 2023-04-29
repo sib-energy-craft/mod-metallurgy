@@ -35,6 +35,13 @@
   "item.sib_energy_craft.tin_purified_crushed_ore": "Tin Purified Crushed Ore",
   "item.sib_energy_craft.silver_purified_crushed_ore": "Silver Purified Crushed Ore",
 
+  "item.sib_energy_craft.copper_tiny_pile_dust": "Copper Tiny Pile Dust",
+  "item.sib_energy_craft.gold_tiny_pile_dust": "Gold Tiny Pile Dust",
+  "item.sib_energy_craft.iron_tiny_pile_dust": "Iron Tiny Pile Dust",
+  "item.sib_energy_craft.tin_tiny_pile_dust": "Tin Tiny Pile Dust",
+  "item.sib_energy_craft.silver_tiny_pile_dust": "Silver Tiny Pile Dust",
+  "item.sib_energy_craft.bronze_tiny_pile_dust": "Bronze Tiny Pile Dust",
+
   "block.sib_energy_craft.iron_crafting_table": "Iron Crafting Table",
 
   "container.iron_crafting_table": "Iron Crafting Table",

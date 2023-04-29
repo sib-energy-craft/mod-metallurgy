@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "sib_energy_craft:copper_tiny_pile_dust"
+    }
+  },
+  "result": {
+    "item": "sib_energy_craft:copper_dust"
+  }
+}

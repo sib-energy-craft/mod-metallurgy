@@ -3,15 +3,13 @@
   "category": "misc",
   "group": "bronze_dust",
   "pattern": [
-    "CC",
-    "CT"
+    "###",
+    "###",
+    "###"
   ],
   "key": {
-    "C": {
-      "item": "sib_energy_craft:copper_dust"
-    },
-    "T": {
-      "item": "sib_energy_craft:tin_dust"
+    "#": {
+      "item": "sib_energy_craft:bronze_tiny_pile_dust"
     }
   },
   "result": {
