@@ -1,0 +1,12 @@
+{
+  "type": "sib_energy_craft:compressing",
+  "ingredient": {
+    "item": "sib_energy_craft:gold_tiny_pile_dust",
+    "count": 9
+  },
+  "result": {
+    "item": "sib_energy_craft:gold_dust"
+  },
+  "experience": 0,
+  "cookingTime": 100
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "sib_energy_craft:bronze_tiny_pile_dust",
+    "sib_energy_craft:copper_tiny_pile_dust",
+    "sib_energy_craft:iron_tiny_pile_dust",
+    "sib_energy_craft:gold_tiny_pile_dust",
+    "sib_energy_craft:silver_tiny_pile_dust",
+    "sib_energy_craft:tin_tiny_pile_dust"
+  ]
+}
