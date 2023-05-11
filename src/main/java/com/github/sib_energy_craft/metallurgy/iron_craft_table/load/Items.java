@@ -3,7 +3,7 @@ package com.github.sib_energy_craft.metallurgy.iron_craft_table.load;
 import com.github.sib_energy_craft.energy_api.utils.Identifiers;
 import com.github.sib_energy_craft.metallurgy.iron_craft_table.item.IronHammerItem;
 import com.github.sib_energy_craft.metallurgy.iron_craft_table.item.MetalShearsItem;
-import com.github.sib_energy_craft.sec_utils.load.ModRegistrar;
+import com.github.sib_energy_craft.sec_utils.load.DefaultModInitializer;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -16,7 +16,7 @@ import static com.github.sib_energy_craft.sec_utils.utils.ItemUtils.registerBloc
  * @since 0.0.1
  * @author sibmaks
  */
-public final class Items implements ModRegistrar {
+public final class Items implements DefaultModInitializer {
     public static final BlockItem IRON_CRAFTING_TABLE;
     public static final IronHammerItem IRON_HAMMER;
     public static final MetalShearsItem METAL_SHEARS;
