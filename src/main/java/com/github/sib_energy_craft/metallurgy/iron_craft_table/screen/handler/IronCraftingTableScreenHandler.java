@@ -1,6 +1,6 @@
 package com.github.sib_energy_craft.metallurgy.iron_craft_table.screen.handler;
 
-import com.github.sib_energy_craft.metallurgy.iron_craft_table.load.Screens;
+import com.github.sib_energy_craft.metallurgy.iron_craft_table.load.client.Screens;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.network.PacketByteBuf;
