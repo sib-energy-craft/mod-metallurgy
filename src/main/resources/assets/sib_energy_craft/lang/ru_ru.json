@@ -1,14 +1,18 @@
 {
   "item.sib_energy_craft.bronze_ingot": "Бронзовый слиток",
+  "item.sib_energy_craft.steel_ingot": "Стальной слиток",
 
   "item.sib_energy_craft.bronze_nugget": "Кусочек бронзы",
+  "item.sib_energy_craft.steel_nugget": "Кусочек стали",
 
   "block.sib_energy_craft.bronze_block": "Блок бронзы",
+  "block.sib_energy_craft.steel_block": "Блок стали",
 
   "item.sib_energy_craft.iron_plate": "Железная пластина",
   "item.sib_energy_craft.copper_plate": "Медная пластина",
   "item.sib_energy_craft.tin_plate": "Оловянная пластина",
   "item.sib_energy_craft.bronze_plate": "Бронзовая пластина",
+  "item.sib_energy_craft.steel_plate": "Стальная пластина",
   "item.sib_energy_craft.gold_plate": "Золотая пластина",
 
   "item.sib_energy_craft.iron_item_casing": "Железный корпус",
@@ -22,6 +26,7 @@
   "item.sib_energy_craft.tin_dust": "Оловянная пыль",
   "item.sib_energy_craft.silver_dust": "Серебряная пыль",
   "item.sib_energy_craft.bronze_dust": "Бронзовая пыль",
+  "item.sib_energy_craft.steel_dust": "Стальная пыль",
 
   "item.sib_energy_craft.copper_crushed_ore": "Медная измельчёная руда",
   "item.sib_energy_craft.gold_crushed_ore": "Золотая измельчёная руда",
@@ -41,6 +46,7 @@
   "item.sib_energy_craft.tin_tiny_pile_dust": "Небольшая кучка оловянной пыли",
   "item.sib_energy_craft.silver_tiny_pile_dust": "Небольшая кучка серебряной пыли",
   "item.sib_energy_craft.bronze_tiny_pile_dust": "Небольшая кучка бронзовой пыли",
+  "item.sib_energy_craft.steel_tiny_pile_dust": "Небольшая кучка стальной пыли",
 
   "block.sib_energy_craft.iron_crafting_table": "Железный рабочий стол",
 

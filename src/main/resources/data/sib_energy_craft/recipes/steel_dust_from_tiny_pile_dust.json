@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "steel_dust",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "sib_energy_craft:steel_tiny_pile_dust"
+    }
+  },
+  "result": {
+    "item": "sib_energy_craft:steel_dust"
+  }
+}

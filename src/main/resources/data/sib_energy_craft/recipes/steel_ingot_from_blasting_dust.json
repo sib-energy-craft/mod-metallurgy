@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "group": "steel_ingot",
+  "ingredient": {
+    "item": "sib_energy_craft:steel_dust"
+  },
+  "result": "sib_energy_craft:steel_ingot",
+  "experience": 0.35,
+  "cookingTime": 250
+}

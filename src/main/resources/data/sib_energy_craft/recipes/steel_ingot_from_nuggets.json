@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "steel_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "sib_energy_craft:steel_nugget"
+    }
+  },
+  "result": {
+    "item": "sib_energy_craft:steel_ingot"
+  }
+}

@@ -19,6 +19,7 @@ public final class TinyPileDusts implements DefaultModInitializer {
     public static final Item TIN_TINY_PILE_DUST;
     public static final Item SILVER_TINY_PILE_DUST;
     public static final Item BRONZE_TINY_PILE_DUST;
+    public static final Item STEEL_TINY_PILE_DUST;
 
     static {
         var commonItem = new Item.Settings()
@@ -30,5 +31,6 @@ public final class TinyPileDusts implements DefaultModInitializer {
         TIN_TINY_PILE_DUST = register(ItemGroups.INGREDIENTS, Identifiers.of("tin_tiny_pile_dust"), commonItem);
         SILVER_TINY_PILE_DUST = register(ItemGroups.INGREDIENTS, Identifiers.of("silver_tiny_pile_dust"), commonItem);
         BRONZE_TINY_PILE_DUST = register(ItemGroups.INGREDIENTS, Identifiers.of("bronze_tiny_pile_dust"), commonItem);
+        STEEL_TINY_PILE_DUST = register(ItemGroups.INGREDIENTS, Identifiers.of("steel_tiny_pile_dust"), commonItem);
     }
 }

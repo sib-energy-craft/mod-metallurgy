@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "steel_ingot",
+  "ingredients": [
+    {
+      "item": "sib_energy_craft:steel_block"
+    }
+  ],
+  "result": {
+    "item": "sib_energy_craft:steel_ingot",
+    "count": 9
+  }
+}

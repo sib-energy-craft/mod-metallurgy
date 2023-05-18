@@ -16,6 +16,7 @@ import static com.github.sib_energy_craft.sec_utils.utils.BlockUtils.register;
  */
 public final class Blocks implements DefaultModInitializer {
     public static final Identified<Block> BRONZE_BLOCK;
+    public static final Identified<Block> STEEL_BLOCK;
 
     static {
         var metalBlockSettings = FabricBlockSettings.of(Material.METAL)
@@ -24,5 +25,11 @@ public final class Blocks implements DefaultModInitializer {
                 .requiresTool();
 
         BRONZE_BLOCK = register(Identifiers.of("bronze_block"), metalBlockSettings);
+
+        var stealBlockSettings = FabricBlockSettings.of(Material.METAL)
+                .sounds(BlockSoundGroup.METAL)
+                .strength(25, 600)
+                .requiresTool();
+        STEEL_BLOCK = register(Identifiers.of("steel_block"), stealBlockSettings);
     }
 }

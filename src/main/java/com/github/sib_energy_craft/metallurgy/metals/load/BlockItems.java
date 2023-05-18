@@ -12,8 +12,10 @@ import static com.github.sib_energy_craft.sec_utils.utils.ItemUtils.registerBloc
  */
 public final class BlockItems implements DefaultModInitializer {
     public static final Item BRONZE_BLOCK;
+    public static final Item STEEL_BLOCK;
 
     static {
         BRONZE_BLOCK = registerBlockItem(ItemGroups.BUILDING_BLOCKS, Blocks.BRONZE_BLOCK);
+        STEEL_BLOCK = registerBlockItem(ItemGroups.BUILDING_BLOCKS, Blocks.STEEL_BLOCK);
     }
 }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sib_energy_craft:steel_ingot"
+    }
+  ],
+  "result": {
+    "item": "sib_energy_craft:steel_nugget",
+    "count": 9
+  }
+}

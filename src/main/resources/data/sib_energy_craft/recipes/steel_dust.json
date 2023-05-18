@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "steel_dust",
+  "pattern": [
+    "CF",
+    "OI"
+  ],
+  "key": {
+    "C": {
+      "item": "sib_energy_craft:copper_dust"
+    },
+    "F": {
+      "item": "sib_energy_craft:flint_dust"
+    },
+    "O": {
+      "item": "sib_energy_craft:coal_dust"
+    },
+    "I": {
+      "item": "sib_energy_craft:iron_dust"
+    }
+  },
+  "result": {
+    "item": "sib_energy_craft:steel_dust"
+  }
+}

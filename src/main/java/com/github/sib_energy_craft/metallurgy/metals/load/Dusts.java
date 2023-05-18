@@ -19,6 +19,7 @@ public final class Dusts implements DefaultModInitializer {
     public static final Item TIN_DUST;
     public static final Item SILVER_DUST;
     public static final Item BRONZE_DUST;
+    public static final Item STEEL_DUST;
 
     static {
         var commonItem = new Item.Settings()
@@ -30,5 +31,6 @@ public final class Dusts implements DefaultModInitializer {
         TIN_DUST = register(ItemGroups.INGREDIENTS, Identifiers.of("tin_dust"), commonItem);
         SILVER_DUST = register(ItemGroups.INGREDIENTS, Identifiers.of("silver_dust"), commonItem);
         BRONZE_DUST = register(ItemGroups.INGREDIENTS, Identifiers.of("bronze_dust"), commonItem);
+        STEEL_DUST = register(ItemGroups.INGREDIENTS, Identifiers.of("steel_dust"), commonItem);
     }
 }

@@ -15,6 +15,8 @@ import static com.github.sib_energy_craft.sec_utils.utils.ItemUtils.register;
 public final class Items implements DefaultModInitializer {
     public static final Item BRONZE_INGOT;
     public static final Item BRONZE_NUGGET;
+    public static final Item STEEL_INGOT;
+    public static final Item STEEL_NUGGET;
 
     static {
         var commonItem = new Item.Settings()
@@ -22,5 +24,8 @@ public final class Items implements DefaultModInitializer {
 
         BRONZE_INGOT = register(ItemGroups.INGREDIENTS, Identifiers.of("bronze_ingot"), commonItem);
         BRONZE_NUGGET = register(ItemGroups.INGREDIENTS, Identifiers.of("bronze_nugget"), commonItem);
+
+        STEEL_INGOT = register(ItemGroups.INGREDIENTS, Identifiers.of("steel_ingot"), commonItem);
+        STEEL_NUGGET = register(ItemGroups.INGREDIENTS, Identifiers.of("steel_nugget"), commonItem);
     }
 }
