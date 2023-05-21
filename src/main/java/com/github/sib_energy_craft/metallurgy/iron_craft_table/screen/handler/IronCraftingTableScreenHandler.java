@@ -1,6 +1,6 @@
 package com.github.sib_energy_craft.metallurgy.iron_craft_table.screen.handler;
 
-import com.github.sib_energy_craft.metallurgy.iron_craft_table.load.client.Screens;
+import com.github.sib_energy_craft.metallurgy.iron_craft_table.load.ScreenHandlers;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.network.PacketByteBuf;
@@ -14,11 +14,11 @@ import net.minecraft.util.math.BlockPos;
 public class IronCraftingTableScreenHandler extends AbstractIronCraftingTableScreenHandler {
 
     public IronCraftingTableScreenHandler(int syncId, PlayerInventory playerInventory, PlayerEntity player, BlockPos pos) {
-        super(Screens.IRON_CRAFTING_TABLE, syncId, playerInventory, ScreenHandlerContext.create(player.getWorld(), pos));
+        super(ScreenHandlers.IRON_CRAFTING_TABLE, syncId, playerInventory, ScreenHandlerContext.create(player.getWorld(), pos));
     }
 
     public IronCraftingTableScreenHandler(int syncId, PlayerInventory playerInventory, PacketByteBuf packetByteBuf) {
-        super(Screens.IRON_CRAFTING_TABLE, syncId, playerInventory);
+        super(ScreenHandlers.IRON_CRAFTING_TABLE, syncId, playerInventory);
 
     }
 }
