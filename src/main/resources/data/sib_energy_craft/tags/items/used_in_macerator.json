@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
+    "minecraft:copper_ore",
+    "minecraft:iron_ore",
+    "minecraft:gold_ore",
+    "sib_energy_craft:silver_ore",
+    "sib_energy_craft:tin_ore",
+
     "minecraft:raw_copper",
     "minecraft:raw_iron",
     "minecraft:raw_gold",
