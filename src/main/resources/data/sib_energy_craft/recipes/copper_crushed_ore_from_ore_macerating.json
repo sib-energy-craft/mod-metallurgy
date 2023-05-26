@@ -1,0 +1,15 @@
+{
+  "type": "sib_energy_craft:macerating",
+  "category": "misc",
+  "ingredient": [
+    {
+      "item": "minecraft:copper_ore"
+    }
+  ],
+  "result": {
+    "item": "sib_energy_craft:copper_crushed_ore",
+    "count": 2
+  },
+  "experience": 0.1,
+  "cookingTime": 100
+}
