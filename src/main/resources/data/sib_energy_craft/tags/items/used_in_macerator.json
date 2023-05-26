@@ -12,7 +12,7 @@
     "minecraft:gold_ore",
     "sib_energy_craft:silver_ore",
     "sib_energy_craft:tin_ore",
-    "sib_energy_craft:nether_gold_ore",
+    "minecraft:nether_gold_ore",
 
     "minecraft:raw_copper",
     "minecraft:raw_iron",

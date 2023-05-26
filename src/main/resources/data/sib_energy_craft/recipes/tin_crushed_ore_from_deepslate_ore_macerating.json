@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredient": [
     {
-      "item": "minecraft:deepslate_tin_ore"
+      "item": "sib_energy_craft:deepslate_tin_ore"
     }
   ],
   "result": {
