@@ -1,0 +1,15 @@
+{
+  "type": "sib_energy_craft:macerating",
+  "category": "misc",
+  "ingredient": [
+    {
+      "item": "minecraft:deepslate_gold_ore"
+    }
+  ],
+  "result": {
+    "item": "sib_energy_craft:gold_crushed_ore",
+    "count": 3
+  },
+  "experience": 0.1,
+  "cookingTime": 100
+}

@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "sib_energy_craft:tin_crushed_ore_from_macerating"
+      "sib_energy_craft:tin_crushed_ore_from_ore_macerating"
     ]
   },
   "criteria": {
@@ -12,7 +12,7 @@
         "items": [
           {
             "items": [
-              "sib_energy_craft:tin_ore"
+              "minecraft:tin_ore"
             ]
           }
         ]
@@ -21,7 +21,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "sib_energy_craft:tin_crushed_ore_from_macerating"
+        "recipe": "sib_energy_craft:tin_crushed_ore_from_ore_macerating"
       }
     }
   },

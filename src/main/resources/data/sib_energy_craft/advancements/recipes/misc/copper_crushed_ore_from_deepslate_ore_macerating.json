@@ -2,17 +2,17 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "sib_energy_craft:copper_crushed_ore_from_ore_macerating"
+      "sib_energy_craft:copper_crushed_ore_from_deepslate_ore_macerating"
     ]
   },
   "criteria": {
-    "has_copper_ore": {
+    "has_deepslate_copper_ore": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:copper_ore"
+              "minecraft:deepslate_copper_ore"
             ]
           }
         ]
@@ -21,13 +21,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "sib_energy_craft:copper_crushed_ore_from_ore_macerating"
+        "recipe": "sib_energy_craft:copper_crushed_ore_from_deepslate_ore_macerating"
       }
     }
   },
   "requirements": [
     [
-      "has_copper_ore",
+      "has_deepslate_copper_ore",
       "has_the_recipe"
     ]
   ]
