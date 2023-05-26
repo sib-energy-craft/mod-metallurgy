@@ -1,11 +1,18 @@
 {
   "replace": false,
   "values": [
+    "minecraft:deepslate_copper_ore",
+    "minecraft:deepslate_iron_ore",
+    "minecraft:deepslate_gold_ore",
+    "sib_energy_craft:deepslate_silver_ore",
+    "sib_energy_craft:deepslate_tin_ore",
+
     "minecraft:copper_ore",
     "minecraft:iron_ore",
     "minecraft:gold_ore",
     "sib_energy_craft:silver_ore",
     "sib_energy_craft:tin_ore",
+    "sib_energy_craft:nether_gold_ore",
 
     "minecraft:raw_copper",
     "minecraft:raw_iron",

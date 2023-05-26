@@ -1,0 +1,15 @@
+{
+  "type": "sib_energy_craft:macerating",
+  "category": "misc",
+  "ingredient": [
+    {
+      "item": "minecraft:nether_gold_ore"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gold_nugget",
+    "count": 6
+  },
+  "experience": 0.1,
+  "cookingTime": 100
+}
