@@ -19,6 +19,7 @@ public final class Plates implements DefaultModInitializer {
     public static final Item TIN_PLATE;
     public static final Item BRONZE_PLATE;
     public static final Item GOLD_PLATE;
+    public static final Item SILVER_PLATE;
     public static final Item STEEL_PLATE;
 
     static {
@@ -30,6 +31,7 @@ public final class Plates implements DefaultModInitializer {
         TIN_PLATE = register(ItemGroups.INGREDIENTS, Identifiers.of("tin_plate"), commonItem);
         BRONZE_PLATE = register(ItemGroups.INGREDIENTS, Identifiers.of("bronze_plate"), commonItem);
         GOLD_PLATE = register(ItemGroups.INGREDIENTS, Identifiers.of("gold_plate"), commonItem);
+        SILVER_PLATE = register(ItemGroups.INGREDIENTS, Identifiers.of("silver_plate"), commonItem);
         STEEL_PLATE = register(ItemGroups.INGREDIENTS, Identifiers.of("steel_plate"), commonItem);
     }
 }
