@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "sib_energy_craft:copper_crushed_ore",
+    "sib_energy_craft:iron_crushed_ore",
+    "sib_energy_craft:gold_crushed_ore",
+    "sib_energy_craft:silver_crushed_ore",
+    "sib_energy_craft:tin_crushed_ore"
+  ]
+}
