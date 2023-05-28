@@ -1,0 +1,14 @@
+{
+  "type": "sib_energy_craft:purifying",
+  "source": {
+    "item": "sib_energy_craft:gold_crushed_ore"
+  },
+  "outputMain": {
+    "item": "sib_energy_craft:gold_purified_crushed_ore"
+  },
+  "outputSide": {
+    "item": "sib_energy_craft:gold_tiny_pile_dust",
+    "count": 2
+  },
+  "cookingTime": 1000
+}

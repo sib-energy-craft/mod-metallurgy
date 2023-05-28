@@ -2,17 +2,17 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "sib_energy_craft:silver_crushed_ore_from_ore_macerating"
+      "sib_energy_craft:iron_purified_crushed_ore"
     ]
   },
   "criteria": {
-    "has_silver_ore": {
+    "has_iron_crushed_ore": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "sib_energy_craft:silver_ore"
+              "sib_energy_craft:iron_crushed_ore"
             ]
           }
         ]
@@ -21,13 +21,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "sib_energy_craft:silver_crushed_ore_from_ore_macerating"
+        "recipe": "sib_energy_craft:iron_purified_crushed_ore"
       }
     }
   },
   "requirements": [
     [
-      "has_silver_ore",
+      "has_iron_crushed_ore",
       "has_the_recipe"
     ]
   ]
