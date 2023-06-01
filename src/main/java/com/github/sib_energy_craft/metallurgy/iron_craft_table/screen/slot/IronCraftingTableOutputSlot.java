@@ -61,7 +61,7 @@ public final class IronCraftingTableOutputSlot extends CraftingResultSlot {
             input.setStack(0, ItemStack.EMPTY);
         }
 
-        stack.getItem().onCraft(stack, player.world, player);
+        stack.getItem().onCraft(stack, player.getWorld(), player);
         contentChangedListener.accept(input);
     }
 }

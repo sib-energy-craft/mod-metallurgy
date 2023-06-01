@@ -18,7 +18,8 @@ public class IronHammerItem extends Item implements IronCraftingTableTool {
 
     @Override
     public void onUse(PlayerEntity player, ItemStack toolStack, ItemStack craftedStack) {
-        player.world.playSound(player, player.getBlockPos(), SoundEvents.BLOCK_ANVIL_USE,
+        var world = player.getWorld();
+        world.playSound(player, player.getBlockPos(), SoundEvents.BLOCK_ANVIL_USE,
                 SoundCategory.BLOCKS, 1.0F, 1.0F);
     }
 }

@@ -18,7 +18,8 @@ public class MetalShearsItem extends Item implements IronCraftingTableTool {
 
     @Override
     public void onUse(PlayerEntity player, ItemStack toolStack, ItemStack craftedStack) {
-        player.world.playSound(player, player.getBlockPos(), SoundEvents.ENTITY_SHEEP_SHEAR,
+        var world = player.getWorld();
+        world.playSound(player, player.getBlockPos(), SoundEvents.ENTITY_SHEEP_SHEAR,
                 SoundCategory.BLOCKS, 1.0F, 1.0F);
     }
 }

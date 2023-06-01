@@ -5,8 +5,8 @@ import com.github.sib_energy_craft.metallurgy.iron_craft_table.block.IronCraftin
 import com.github.sib_energy_craft.sec_utils.common.Identified;
 import com.github.sib_energy_craft.sec_utils.load.DefaultModInitializer;
 import com.github.sib_energy_craft.sec_utils.utils.BlockUtils;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Material;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.MapColor;
 import net.minecraft.sound.BlockSoundGroup;
 
 /**
@@ -17,7 +17,8 @@ public final class Blocks implements DefaultModInitializer {
     public static final Identified<IronCraftingTableBlock> IRON_CRAFTING_TABLE;
 
     static {
-        var metalBlockSettings = FabricBlockSettings.of(Material.METAL)
+        var metalBlockSettings = AbstractBlock.Settings.create()
+                .mapColor(MapColor.IRON_GRAY)
                 .sounds(BlockSoundGroup.METAL)
                 .strength(5, 6)
                 .requiresTool();
