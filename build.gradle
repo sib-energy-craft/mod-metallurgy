@@ -30,11 +30,9 @@ dependencies {
     modImplementation("com.github.sib-energy-craft:energy-api:${project.sec_energy_api_version}")
     modImplementation("com.github.sib-energy-craft:sec-utils:${project.sec_utils_version}")
 
-    modImplementation("com.github.sib-energy-craft:mod-tools-api:${project.sec_mod_tools_api_version}")
     modImplementation "com.github.sib-energy-craft:mod-iron-craft-table-api:${project.sec_mod_iron_craft_table_api_version}"
 
     modImplementation("com.github.sib-energy-craft:mod-ores:${project.sec_mod_ores_version}")
-    modImplementation("com.github.sib-energy-craft:mod-tools-impl:${project.sec_mod_tools_impl_version}")
     modImplementation("com.github.sib-energy-craft:mod-recipes:${project.sec_mod_recipes_version}")
 }
 
