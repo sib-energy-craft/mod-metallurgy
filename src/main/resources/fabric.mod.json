@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "sec-mod-metallurgy",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "name": "SibEnergyCraft - Metallurgy",
   "authors": [
     "sibmaks"
@@ -13,7 +13,7 @@
   "depends": {
     "fabricloader": ">=0.14.21",
     "fabric": "*",
-    "minecraft": "1.20-rc.1"
+    "minecraft": "1.20"
   },
   "entrypoints": {
     "main": [
